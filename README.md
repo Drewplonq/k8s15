@@ -10,6 +10,7 @@
 
 3. для решения добавляем в конфиг сетевую политику
 
+```
 ---
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
@@ -28,4 +29,6 @@ spec:
       ports:
         - protocol: TCP
           port: 80
+          
+```          
 
